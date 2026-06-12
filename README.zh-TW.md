@@ -41,6 +41,11 @@ second-brain/
 │   │   └── strategic-loop.md      # 全局優先級與缺口
 │   └── CLAUDE.md                  # 啟動協議
 │
+├── skills/                        # 可重複使用的 AI 技能模組
+│   └── examples/
+│       ├── save-session/SKILL.md  # Session 存檔
+│       └── morning-standup/SKILL.md # 每日站會
+│
 ├── daemon/                        # 常駐服務（選配）
 │   ├── server.js                  # Express 伺服器
 │   ├── daemon.js                  # Claude CLI 包裝器
@@ -185,6 +190,26 @@ AI 學到新東西時會自動儲存。你也可以直接說：
 3. **小改快做，大改先規劃** — 簡單的直接做，複雜的先出計畫
 4. **機密不進公開 repo** — 密碼放記憶 reference，不放程式碼
 5. **時間用系統指令確認** — 不要自己猜日期
+
+## 技能系統（Skills）
+
+技能是可重複使用的指令模組 — AI 可以根據觸發詞啟動的專業工作流。
+
+```
+skills/
+├── examples/
+│   ├── save-session/SKILL.md    # 自動存檔 session 進度
+│   └── morning-standup/SKILL.md # 每日站會摘要
+└── （你的自訂技能放這裡）
+```
+
+每個技能是一個 `SKILL.md` 檔案，包含觸發詞和分步指令。完整寫法看 [docs/skills-system.md](docs/skills-system.md)。
+
+**技能分類：**
+- **工作流** — 部署、存檔、Code Review
+- **知識型** — 後端工程、QA 自動化、SEO
+- **訓練型** — 給團隊用的互動學習模組
+- **創作型** — 文案、簡報、品牌語氣
 
 ## 沒有包含的東西
 

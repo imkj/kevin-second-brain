@@ -39,6 +39,11 @@ second-brain/
 │   │   └── strategic-loop.md      # Global priorities & gaps
 │   └── CLAUDE.md                  # Boot protocol
 │
+├── skills/                        # Reusable AI skill modules
+│   └── examples/
+│       ├── save-session/SKILL.md  # Session logging
+│       └── morning-standup/SKILL.md # Daily standup
+│
 ├── daemon/                        # Background service (optional)
 │   ├── server.js                  # Express server
 │   ├── daemon.js                  # Claude CLI wrapper
@@ -194,6 +199,26 @@ Uses the daemon service:
 | User memory | `user_{aspect}.md` | `user_communication_style.md` |
 | Session log | `YYYY-MM-DD-session-log.md` | `2026-06-12-session-log.md` |
 | Cortex state | `{state-name}.md` | `current.md`, `open-loops.md` |
+
+## Skills System
+
+Skills are reusable instruction modules — specialized workflows the AI can activate on demand.
+
+```
+skills/
+├── examples/
+│   ├── save-session/SKILL.md    # Auto-save session progress
+│   └── morning-standup/SKILL.md # Daily standup generator
+└── (your custom skills here)
+```
+
+Each skill is a `SKILL.md` file with trigger phrases and step-by-step instructions. See [docs/skills-system.md](docs/skills-system.md) for the full guide on writing skills.
+
+**Skill categories:**
+- **Workflow** — deploy, save-session, code-review
+- **Knowledge** — backend-engineer, qa-runner, seo
+- **Training** — interactive learning modules for your team
+- **Creative** — content writing, presentations, brand voice
 
 ## What's NOT included
 
