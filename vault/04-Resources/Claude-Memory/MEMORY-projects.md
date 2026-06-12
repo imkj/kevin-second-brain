@@ -6,3 +6,5 @@
 - [Website Redesign](project_website_redesign.md) — Phase 2 in progress, deadline March 15
 - [API Migration](project_api_migration.md) — v1 to v2, 60% complete
 -->
+
+- [豪旺角娛樂城官網分析](project_howon888.md) — dev-info.howon888.com，SEO 3/10，首頁內容空白，待修改
