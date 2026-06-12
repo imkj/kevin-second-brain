@@ -142,6 +142,12 @@ skills/
 - 用 `--resume` 管理 session 連續性
 - 佇列處理並發請求
 
+## 前置需求
+
+- **[Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code)** — 必裝。整套系統的引擎。
+- **[Node.js](https://nodejs.org/)** — 必裝。喚醒腳本用來取時區。
+- **[Obsidian](https://obsidian.md/)** — 強烈推薦。`vault/` 目錄就是一個完整的 Obsidian vault，打開就能用。你可以用圖譜視圖看記憶之間的關聯、用搜尋快速找到任何筆記。不裝也能跑（Claude Code 直接讀 Markdown），但裝了體驗好很多。
+
 ## 快速開始
 
 ### 1. Clone 下來

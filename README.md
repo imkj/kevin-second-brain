@@ -140,6 +140,12 @@ A Node.js background service that:
 - Manages session continuity with `--resume`
 - Queues concurrent requests
 
+## Prerequisites
+
+- **[Claude Code CLI](https://docs.anthropic.com/en/docs/claude-code)** — Required. This is the engine that powers everything.
+- **[Node.js](https://nodejs.org/)** — Required. Used by the wakeup script for timezone handling.
+- **[Obsidian](https://obsidian.md/)** — Recommended. The `vault/` directory is a fully compatible Obsidian vault. Open it with Obsidian to visually browse your knowledge base, view linked notes, and manage your memories with a graph view. Not strictly required — Claude Code reads the Markdown files directly — but it makes the experience much better.
+
 ## Quick Start
 
 ### 1. Clone and customize
