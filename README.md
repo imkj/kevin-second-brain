@@ -1,5 +1,7 @@
 # Second Brain for Claude Code
 
+**English** | [繁體中文](README.zh-TW.md)
+
 > Turn Claude Code into your persistent AI partner — one that remembers, learns, and grows with you.
 
 ## What is this?
@@ -115,7 +117,7 @@ A Node.js background service that:
 ### 1. Clone and customize
 
 ```bash
-git clone https://github.com/poyuchen-travis/second-brain-template.git my-second-brain
+git clone https://github.com/silmoontravis/second-brain-template.git my-second-brain
 cd my-second-brain
 ```
 
