@@ -1,5 +1,5 @@
 ---
-updated: 2026-06-12
+updated: 2026-06-14
 ---
 
 # Open Loops
@@ -10,7 +10,8 @@ updated: 2026-06-12
 
 | Item | Priority | Source Date | Status |
 |------|----------|-------------|--------|
-| (none yet) | — | — | — |
+| 撤銷已暴露的 GitHub tokens（3 個） | 高 | 2026-06-14 | ✅ 已完成 |
+| 安裝 GitHub CLI（gh）或 Homebrew | 低 | 2026-06-14 | 待處理 |
 
 ## Completed
 <!-- Move items here when resolved -->

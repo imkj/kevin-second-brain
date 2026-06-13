@@ -1,16 +1,16 @@
 ---
-updated: 2026-06-12
+updated: 2026-06-14
 ---
 
 # Cortex State
 
 ## Current State
-- Mode: Initial setup
-- Last session: (none yet)
-- Notes: Second Brain freshly initialized. Ready to start building context.
+- Mode: 初始設定中
+- Last session: 2026-06-14，完成 Second Brain 基本設定，填入用戶資料
+- Notes: 剛完成 clone 與個人化設定，記憶系統已初始化
 
 ## Active Projects
-<!-- Updated automatically as you work -->
+- 遊戲包網 SaaS（Vue 3 + C#，Database-per-tenant）— 主要產品
 
 ## SSH Connections
-<!-- Add your server connections here -->
+<!-- 之後有需要再填入 -->
