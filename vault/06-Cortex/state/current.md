@@ -4,13 +4,20 @@ updated: 2026-06-14
 
 # Cortex State
 
-## Current State
-- Mode: 初始設定中
-- Last session: 2026-06-14，完成 Second Brain 基本設定，填入用戶資料
-- Notes: 剛完成 clone 與個人化設定，記憶系統已初始化
+## 目前狀態
+- 身份：遊戲 SaaS 產品經理（豪旺角 line-platform）
+- 上次 session：2026-06-14，設定 GitHub 安全機制 + second-brain API 架構
 
-## Active Projects
-- 遊戲包網 SaaS（Vue 3 + C#，Database-per-tenant）— 主要產品
+## 進行中的專案
+- line-platform（Vue 3 + C#，單一租戶 LINE 娛樂城平台）
 
-## SSH Connections
-<!-- 之後有需要再填入 -->
+## 本次完成
+- 移除 git config 中的舊 token，改用 Git Credential Manager
+- 撤銷舊 GitHub token，建立新 token
+- Token 已存至本機 C:\Users\kevin\.github_token
+- 設定提醒（2026-06-15 09:00）在其他兩台電腦設定 token
+- 正在建立 second-brain GitHub API 讀寫架構
+
+## 下次繼續
+- 確認 second-brain API 架構完整可用
+- 在 Windows 和 Mac 兩台電腦設定 token（提醒已設定）
