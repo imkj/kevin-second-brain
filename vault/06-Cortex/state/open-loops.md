@@ -3,7 +3,7 @@
 ## 進行中
 
 - [ ] 其他兩台電腦（Windows + Mac）設定 GitHub token（提醒已排：2026-06-15 09:00）
-- [ ] 評估是否借鑒 LLM Wiki 的搜尋式 skill 設計
+- [ ] 評估 Atlassian MCP 整合：規格書寫完後自動建 Jira ticket
 
 ## 規格書待決策（來源：2026-06-12 ingest）
 
