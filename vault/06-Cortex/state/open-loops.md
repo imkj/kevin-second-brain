@@ -1,17 +1,21 @@
----
-updated: 2026-06-14
----
+# Open Loops — 待追蹤事項
 
-# Open Loops
+## 進行中
 
-> Things mentioned but not resolved. The AI tracks these and follows up.
+- [ ] 其他兩台電腦設定 GitHub token（提醒已排：2026-06-15 09:00）
+- [ ] second-brain GitHub API 讀寫架構（進行中）
 
-## Active
+## 規格書待決策（來源：2026-06-12 ingest）
 
-| Item | Priority | Source Date | Status |
-|------|----------|-------------|--------|
-| 撤銷已暴露的 GitHub tokens（3 個） | 高 | 2026-06-14 | ✅ 已完成 |
-| 安裝 GitHub CLI（gh）或 Homebrew | 低 | 2026-06-14 | 待處理 |
+- [ ] 停權期間旺來金到期，解封後能否使用？
+- [ ] 幸運輪盤豪幣入背包是否對齊為入錢包？
+- [ ] 停權前達成未領取的限時任務，解封後可否補領？
+- [ ] 後端是否有自動消耗道具的情境，是否需過濾停權玩家？
+- [ ] VIP 調整 Modal 星星數上限（系統 6 階 vs 介面 9 顆星）
+- [ ] 旺來金後台設定頁（目前無路由）
 
-## Completed
-<!-- Move items here when resolved -->
+## 已完成
+
+- [x] 移除 git config 中外洩的 GitHub token
+- [x] 建立 Git Credential Manager 認證
+- [x] 建立新 GitHub token 並存至本機
