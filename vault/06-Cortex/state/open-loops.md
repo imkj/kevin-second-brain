@@ -2,7 +2,6 @@
 
 ## 進行中
 
-- [ ] 其他兩台電腦（Windows + Mac）設定 GitHub token（提醒已排：2026-06-15 09:00）
 - [ ] 評估 Atlassian MCP 整合：規格書寫完後自動建 Jira ticket
 
 ## 規格書待決策（來源：2026-06-12 ingest）
@@ -21,3 +20,4 @@
 - [x] 建立 Git Credential Manager 認證
 - [x] 建立新 GitHub token 並存至本機
 - [x] 建立 second-brain GitHub API 讀寫架構（CLAUDE.md + brain-write.sh）
+- [x] 其他兩台電腦（Windows + Mac）設定 GitHub token（完成：2026-06-17）
