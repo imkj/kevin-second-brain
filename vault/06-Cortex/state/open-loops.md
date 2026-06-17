@@ -3,6 +3,8 @@
 ## 進行中
 
 - [ ] 評估 Atlassian MCP 整合：規格書寫完後自動建 Jira ticket
+- [ ] 紅點規格書 §8 問題 #3：RD 提供即時性方案與成本評估
+- [ ] 紅點規格書 §8 問題 #4：聊天室初始未讀 fallback 行為（預設顯示 vs 不顯示紅點）
 
 ## 規格書待決策（來源：2026-06-12 ingest）
 
@@ -21,3 +23,4 @@
 - [x] 建立新 GitHub token 並存至本機
 - [x] 建立 second-brain GitHub API 讀寫架構（CLAUDE.md + brain-write.sh）
 - [x] 其他兩台電腦（Windows + Mac）設定 GitHub token（完成：2026-06-17）
+- [x] 紅點查詢時間窗決策：設為 1 年，已更新進規格書 v3.6（2026-06-17）
