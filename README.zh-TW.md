@@ -153,7 +153,7 @@ skills/
 ### 1. Clone 下來
 
 ```bash
-git clone https://github.com/silmoontravis/second-brain-template.git my-second-brain
+git clone https://github.com/imkj/kevin-second-brain.git my-second-brain
 cd my-second-brain
 ```
 
@@ -234,4 +234,4 @@ MIT — 拿去用、改、做你自己的版本。
 
 ## 作者
 
-[Travis Chen](https://www.instagram.com/travis.ai.engineer/) — AI 工程師，做讓 AI 真正有用的工具。
+Kevin Chang

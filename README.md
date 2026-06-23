@@ -151,7 +151,7 @@ A Node.js background service that:
 ### 1. Clone and customize
 
 ```bash
-git clone https://github.com/silmoontravis/second-brain-template.git my-second-brain
+git clone https://github.com/imkj/kevin-second-brain.git my-second-brain
 cd my-second-brain
 ```
 
@@ -243,4 +243,4 @@ MIT — Use it, modify it, make it yours.
 
 ## Credits
 
-Built by [Travis Chen](https://www.instagram.com/travis.ai.engineer/) — AI Engineer, building tools that make AI actually useful.
+Built by Kevin Chang
