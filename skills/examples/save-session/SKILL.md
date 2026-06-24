@@ -15,7 +15,7 @@ When triggered, execute the full save workflow without asking questions.
 ## Step 1: Get current time
 
 ```bash
-node -e "console.log(new Date().toLocaleString('sv-SE',{timeZone:'YOUR_TIMEZONE'}))"
+node -e "console.log(new Date().toLocaleString('sv-SE',{timeZone:'Asia/Taipei'}))"
 ```
 
 Use the output date as the filename prefix (format `YYYY-MM-DD`).
